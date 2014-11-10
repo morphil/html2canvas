@@ -920,7 +920,9 @@ _html2canvas.Parse = function (images, options) {
       var key = backgroundImage.method === 'url' ?
       backgroundImage.args[0] :
       backgroundImage.value;
-
+      if( backgroundImage.method === 'url' && key.indexOf(options.whiteList)===-1){
+        continue;
+      }
       image = loadImage(key);
 
       // TODO add support for background-origin

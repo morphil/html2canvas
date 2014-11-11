@@ -14,10 +14,10 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git@github.com:niklasvh/html2canvas.git"
+    "url": "git@github.com:morphil/html2canvas.git"
   },
   "bugs": {
-    "url": "https://github.com/niklasvh/html2canvas/issues"
+    "url": "https://github.com/morphil/html2canvas/issues"
   },
   "devDependencies": {
     "base64-arraybuffer": ">= 0.1.0",
